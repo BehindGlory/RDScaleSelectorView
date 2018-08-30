@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E08AAC821363BEB00A742D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E08AAC721363BEB00A742D0 /* AppDelegate.m */; };
+		6E08AACB21363BEB00A742D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E08AACA21363BEB00A742D0 /* ViewController.m */; };
+		6E08AACE21363BEB00A742D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E08AACC21363BEB00A742D0 /* Main.storyboard */; };
+		6E08AAD021363BEC00A742D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E08AACF21363BEC00A742D0 /* Assets.xcassets */; };
+		6E08AAD321363BEC00A742D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E08AAD121363BEC00A742D0 /* LaunchScreen.storyboard */; };
+		6E08AAD621363BEC00A742D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E08AAD521363BEC00A742D0 /* main.m */; };
+		6E08AAE021363BEC00A742D0 /* RDScaleSelectorViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E08AADF21363BEC00A742D0 /* RDScaleSelectorViewTests.m */; };
+		6E08AAEB21363BEC00A742D0 /* RDScaleSelectorViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E08AAEA21363BEC00A742D0 /* RDScaleSelectorViewUITests.m */; };
+		6E08AAFA21363C4900A742D0 /* RDWeightSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E08AAF921363C4900A742D0 /* RDWeightSelectViewController.m */; };
+		6E08AAFE21363C5700A742D0 /* RDBirthdaySelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E08AAFC21363C5700A742D0 /* RDBirthdaySelectViewController.m */; };
+		6E08AAFF21363C5700A742D0 /* RDBirthdaySelectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E08AAFD21363C5700A742D0 /* RDBirthdaySelectViewController.xib */; };
+		6E08AB0221363D1500A742D0 /* RDScaleSelectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E08AB0121363D1500A742D0 /* RDScaleSelectorView.m */; };
+		6E08AB0521363F4800A742D0 /* RDScaleSelectorCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E08AB0421363F4800A742D0 /* RDScaleSelectorCollectionCell.m */; };
+		6E08AB1621364E8400A742D0 /* DateTools.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6E08AB0721364E8400A742D0 /* DateTools.bundle */; };
+		6E08AB1721364E8400A742D0 /* DTTimePeriod.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E08AB0821364E8400A742D0 /* DTTimePeriod.m */; };
+		6E08AB1821364E8400A742D0 /* NSDate+DateTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E08AB0B21364E8400A742D0 /* NSDate+DateTools.m */; };
+		6E08AB1921364E8400A742D0 /* DTTimePeriodGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E08AB0D21364E8400A742D0 /* DTTimePeriodGroup.m */; };
+		6E08AB1A21364E8400A742D0 /* DTError.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E08AB1121364E8400A742D0 /* DTError.m */; };
+		6E08AB1B21364E8400A742D0 /* DTTimePeriodCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E08AB1221364E8400A742D0 /* DTTimePeriodCollection.m */; };
+		6E08AB1C21364E8400A742D0 /* DTTimePeriodChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E08AB1421364E8400A742D0 /* DTTimePeriodChain.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E08AADC21363BEC00A742D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E08AABB21363BEB00A742D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E08AAC221363BEB00A742D0;
+			remoteInfo = RDScaleSelectorView;
+		};
+		6E08AAE721363BEC00A742D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E08AABB21363BEB00A742D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E08AAC221363BEB00A742D0;
+			remoteInfo = RDScaleSelectorView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E08AAC321363BEB00A742D0 /* RDScaleSelectorView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RDScaleSelectorView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E08AAC621363BEB00A742D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6E08AAC721363BEB00A742D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6E08AAC921363BEB00A742D0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6E08AACA21363BEB00A742D0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6E08AACD21363BEB00A742D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E08AACF21363BEC00A742D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E08AAD221363BEC00A742D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E08AAD421363BEC00A742D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E08AAD521363BEC00A742D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E08AADB21363BEC00A742D0 /* RDScaleSelectorViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RDScaleSelectorViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E08AADF21363BEC00A742D0 /* RDScaleSelectorViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDScaleSelectorViewTests.m; sourceTree = "<group>"; };
+		6E08AAE121363BEC00A742D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E08AAE621363BEC00A742D0 /* RDScaleSelectorViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RDScaleSelectorViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E08AAEA21363BEC00A742D0 /* RDScaleSelectorViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDScaleSelectorViewUITests.m; sourceTree = "<group>"; };
+		6E08AAEC21363BEC00A742D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E08AAF821363C4900A742D0 /* RDWeightSelectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDWeightSelectViewController.h; sourceTree = "<group>"; };
+		6E08AAF921363C4900A742D0 /* RDWeightSelectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDWeightSelectViewController.m; sourceTree = "<group>"; };
+		6E08AAFB21363C5700A742D0 /* RDBirthdaySelectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDBirthdaySelectViewController.h; sourceTree = "<group>"; };
+		6E08AAFC21363C5700A742D0 /* RDBirthdaySelectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDBirthdaySelectViewController.m; sourceTree = "<group>"; };
+		6E08AAFD21363C5700A742D0 /* RDBirthdaySelectViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RDBirthdaySelectViewController.xib; sourceTree = "<group>"; };
+		6E08AB0021363D1400A742D0 /* RDScaleSelectorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDScaleSelectorView.h; sourceTree = "<group>"; };
+		6E08AB0121363D1500A742D0 /* RDScaleSelectorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDScaleSelectorView.m; sourceTree = "<group>"; };
+		6E08AB0321363F4800A742D0 /* RDScaleSelectorCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDScaleSelectorCollectionCell.h; sourceTree = "<group>"; };
+		6E08AB0421363F4800A742D0 /* RDScaleSelectorCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDScaleSelectorCollectionCell.m; sourceTree = "<group>"; };
+		6E08AB0721364E8400A742D0 /* DateTools.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DateTools.bundle; sourceTree = "<group>"; };
+		6E08AB0821364E8400A742D0 /* DTTimePeriod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTTimePeriod.m; sourceTree = "<group>"; };
+		6E08AB0921364E8400A742D0 /* DTError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTError.h; sourceTree = "<group>"; };
+		6E08AB0A21364E8400A742D0 /* DTConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTConstants.h; sourceTree = "<group>"; };
+		6E08AB0B21364E8400A742D0 /* NSDate+DateTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+DateTools.m"; sourceTree = "<group>"; };
+		6E08AB0C21364E8400A742D0 /* DTTimePeriodChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTTimePeriodChain.h; sourceTree = "<group>"; };
+		6E08AB0D21364E8400A742D0 /* DTTimePeriodGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTTimePeriodGroup.m; sourceTree = "<group>"; };
+		6E08AB0E21364E8400A742D0 /* DTTimePeriodCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTTimePeriodCollection.h; sourceTree = "<group>"; };
+		6E08AB0F21364E8400A742D0 /* DateTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateTools.h; sourceTree = "<group>"; };
+		6E08AB1021364E8400A742D0 /* DTTimePeriod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTTimePeriod.h; sourceTree = "<group>"; };
+		6E08AB1121364E8400A742D0 /* DTError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTError.m; sourceTree = "<group>"; };
+		6E08AB1221364E8400A742D0 /* DTTimePeriodCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTTimePeriodCollection.m; sourceTree = "<group>"; };
+		6E08AB1321364E8400A742D0 /* DTTimePeriodGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTTimePeriodGroup.h; sourceTree = "<group>"; };
+		6E08AB1421364E8400A742D0 /* DTTimePeriodChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTTimePeriodChain.m; sourceTree = "<group>"; };
+		6E08AB1521364E8400A742D0 /* NSDate+DateTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+DateTools.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E08AAC021363BEB00A742D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E08AAD821363BEC00A742D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E08AAE321363BEC00A742D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E08AABA21363BEB00A742D0 = {
+			isa = PBXGroup;
+			children = (
+				6E08AAC521363BEB00A742D0 /* RDScaleSelectorView */,
+				6E08AADE21363BEC00A742D0 /* RDScaleSelectorViewTests */,
+				6E08AAE921363BEC00A742D0 /* RDScaleSelectorViewUITests */,
+				6E08AAC421363BEB00A742D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E08AAC421363BEB00A742D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E08AAC321363BEB00A742D0 /* RDScaleSelectorView.app */,
+				6E08AADB21363BEC00A742D0 /* RDScaleSelectorViewTests.xctest */,
+				6E08AAE621363BEC00A742D0 /* RDScaleSelectorViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E08AAC521363BEB00A742D0 /* RDScaleSelectorView */ = {
+			isa = PBXGroup;
+			children = (
+				6E08AB0621364E8400A742D0 /* DateTools */,
+				6E08AAC621363BEB00A742D0 /* AppDelegate.h */,
+				6E08AAC721363BEB00A742D0 /* AppDelegate.m */,
+				6E08AAC921363BEB00A742D0 /* ViewController.h */,
+				6E08AACA21363BEB00A742D0 /* ViewController.m */,
+				6E08AB0021363D1400A742D0 /* RDScaleSelectorView.h */,
+				6E08AB0121363D1500A742D0 /* RDScaleSelectorView.m */,
+				6E08AB0321363F4800A742D0 /* RDScaleSelectorCollectionCell.h */,
+				6E08AB0421363F4800A742D0 /* RDScaleSelectorCollectionCell.m */,
+				6E08AAF821363C4900A742D0 /* RDWeightSelectViewController.h */,
+				6E08AAF921363C4900A742D0 /* RDWeightSelectViewController.m */,
+				6E08AAFB21363C5700A742D0 /* RDBirthdaySelectViewController.h */,
+				6E08AAFC21363C5700A742D0 /* RDBirthdaySelectViewController.m */,
+				6E08AAFD21363C5700A742D0 /* RDBirthdaySelectViewController.xib */,
+				6E08AACC21363BEB00A742D0 /* Main.storyboard */,
+				6E08AACF21363BEC00A742D0 /* Assets.xcassets */,
+				6E08AAD121363BEC00A742D0 /* LaunchScreen.storyboard */,
+				6E08AAD421363BEC00A742D0 /* Info.plist */,
+				6E08AAD521363BEC00A742D0 /* main.m */,
+			);
+			path = RDScaleSelectorView;
+			sourceTree = "<group>";
+		};
+		6E08AADE21363BEC00A742D0 /* RDScaleSelectorViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E08AADF21363BEC00A742D0 /* RDScaleSelectorViewTests.m */,
+				6E08AAE121363BEC00A742D0 /* Info.plist */,
+			);
+			path = RDScaleSelectorViewTests;
+			sourceTree = "<group>";
+		};
+		6E08AAE921363BEC00A742D0 /* RDScaleSelectorViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6E08AAEA21363BEC00A742D0 /* RDScaleSelectorViewUITests.m */,
+				6E08AAEC21363BEC00A742D0 /* Info.plist */,
+			);
+			path = RDScaleSelectorViewUITests;
+			sourceTree = "<group>";
+		};
+		6E08AB0621364E8400A742D0 /* DateTools */ = {
+			isa = PBXGroup;
+			children = (
+				6E08AB0721364E8400A742D0 /* DateTools.bundle */,
+				6E08AB0821364E8400A742D0 /* DTTimePeriod.m */,
+				6E08AB0921364E8400A742D0 /* DTError.h */,
+				6E08AB0A21364E8400A742D0 /* DTConstants.h */,
+				6E08AB0B21364E8400A742D0 /* NSDate+DateTools.m */,
+				6E08AB0C21364E8400A742D0 /* DTTimePeriodChain.h */,
+				6E08AB0D21364E8400A742D0 /* DTTimePeriodGroup.m */,
+				6E08AB0E21364E8400A742D0 /* DTTimePeriodCollection.h */,
+				6E08AB0F21364E8400A742D0 /* DateTools.h */,
+				6E08AB1021364E8400A742D0 /* DTTimePeriod.h */,
+				6E08AB1121364E8400A742D0 /* DTError.m */,
+				6E08AB1221364E8400A742D0 /* DTTimePeriodCollection.m */,
+				6E08AB1321364E8400A742D0 /* DTTimePeriodGroup.h */,
+				6E08AB1421364E8400A742D0 /* DTTimePeriodChain.m */,
+				6E08AB1521364E8400A742D0 /* NSDate+DateTools.h */,
+			);
+			path = DateTools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E08AAC221363BEB00A742D0 /* RDScaleSelectorView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E08AAEF21363BEC00A742D0 /* Build configuration list for PBXNativeTarget "RDScaleSelectorView" */;
+			buildPhases = (
+				6E08AABF21363BEB00A742D0 /* Sources */,
+				6E08AAC021363BEB00A742D0 /* Frameworks */,
+				6E08AAC121363BEB00A742D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RDScaleSelectorView;
+			productName = RDScaleSelectorView;
+			productReference = 6E08AAC321363BEB00A742D0 /* RDScaleSelectorView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E08AADA21363BEC00A742D0 /* RDScaleSelectorViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E08AAF221363BEC00A742D0 /* Build configuration list for PBXNativeTarget "RDScaleSelectorViewTests" */;
+			buildPhases = (
+				6E08AAD721363BEC00A742D0 /* Sources */,
+				6E08AAD821363BEC00A742D0 /* Frameworks */,
+				6E08AAD921363BEC00A742D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E08AADD21363BEC00A742D0 /* PBXTargetDependency */,
+			);
+			name = RDScaleSelectorViewTests;
+			productName = RDScaleSelectorViewTests;
+			productReference = 6E08AADB21363BEC00A742D0 /* RDScaleSelectorViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E08AAE521363BEC00A742D0 /* RDScaleSelectorViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E08AAF521363BEC00A742D0 /* Build configuration list for PBXNativeTarget "RDScaleSelectorViewUITests" */;
+			buildPhases = (
+				6E08AAE221363BEC00A742D0 /* Sources */,
+				6E08AAE321363BEC00A742D0 /* Frameworks */,
+				6E08AAE421363BEC00A742D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E08AAE821363BEC00A742D0 /* PBXTargetDependency */,
+			);
+			name = RDScaleSelectorViewUITests;
+			productName = RDScaleSelectorViewUITests;
+			productReference = 6E08AAE621363BEC00A742D0 /* RDScaleSelectorViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E08AABB21363BEB00A742D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Rain Day";
+				TargetAttributes = {
+					6E08AAC221363BEB00A742D0 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					6E08AADA21363BEC00A742D0 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 6E08AAC221363BEB00A742D0;
+					};
+					6E08AAE521363BEC00A742D0 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 6E08AAC221363BEB00A742D0;
+					};
+				};
+			};
+			buildConfigurationList = 6E08AABE21363BEB00A742D0 /* Build configuration list for PBXProject "RDScaleSelectorView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E08AABA21363BEB00A742D0;
+			productRefGroup = 6E08AAC421363BEB00A742D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E08AAC221363BEB00A742D0 /* RDScaleSelectorView */,
+				6E08AADA21363BEC00A742D0 /* RDScaleSelectorViewTests */,
+				6E08AAE521363BEC00A742D0 /* RDScaleSelectorViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E08AAC121363BEB00A742D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E08AAD321363BEC00A742D0 /* LaunchScreen.storyboard in Resources */,
+				6E08AAD021363BEC00A742D0 /* Assets.xcassets in Resources */,
+				6E08AACE21363BEB00A742D0 /* Main.storyboard in Resources */,
+				6E08AAFF21363C5700A742D0 /* RDBirthdaySelectViewController.xib in Resources */,
+				6E08AB1621364E8400A742D0 /* DateTools.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E08AAD921363BEC00A742D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E08AAE421363BEC00A742D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E08AABF21363BEB00A742D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E08AACB21363BEB00A742D0 /* ViewController.m in Sources */,
+				6E08AB1C21364E8400A742D0 /* DTTimePeriodChain.m in Sources */,
+				6E08AB1B21364E8400A742D0 /* DTTimePeriodCollection.m in Sources */,
+				6E08AB1921364E8400A742D0 /* DTTimePeriodGroup.m in Sources */,
+				6E08AAD621363BEC00A742D0 /* main.m in Sources */,
+				6E08AB0521363F4800A742D0 /* RDScaleSelectorCollectionCell.m in Sources */,
+				6E08AB1721364E8400A742D0 /* DTTimePeriod.m in Sources */,
+				6E08AAFA21363C4900A742D0 /* RDWeightSelectViewController.m in Sources */,
+				6E08AB1A21364E8400A742D0 /* DTError.m in Sources */,
+				6E08AAC821363BEB00A742D0 /* AppDelegate.m in Sources */,
+				6E08AB0221363D1500A742D0 /* RDScaleSelectorView.m in Sources */,
+				6E08AB1821364E8400A742D0 /* NSDate+DateTools.m in Sources */,
+				6E08AAFE21363C5700A742D0 /* RDBirthdaySelectViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E08AAD721363BEC00A742D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E08AAE021363BEC00A742D0 /* RDScaleSelectorViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E08AAE221363BEC00A742D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E08AAEB21363BEC00A742D0 /* RDScaleSelectorViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E08AADD21363BEC00A742D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E08AAC221363BEB00A742D0 /* RDScaleSelectorView */;
+			targetProxy = 6E08AADC21363BEC00A742D0 /* PBXContainerItemProxy */;
+		};
+		6E08AAE821363BEC00A742D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E08AAC221363BEB00A742D0 /* RDScaleSelectorView */;
+			targetProxy = 6E08AAE721363BEC00A742D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E08AACC21363BEB00A742D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E08AACD21363BEB00A742D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E08AAD121363BEC00A742D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E08AAD221363BEC00A742D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E08AAED21363BEC00A742D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6E08AAEE21363BEC00A742D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E08AAF021363BEC00A742D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RDScaleSelectorView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rainday.RDScaleSelectorView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E08AAF121363BEC00A742D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RDScaleSelectorView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rainday.RDScaleSelectorView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6E08AAF321363BEC00A742D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RDScaleSelectorViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rainday.RDScaleSelectorViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RDScaleSelectorView.app/RDScaleSelectorView";
+			};
+			name = Debug;
+		};
+		6E08AAF421363BEC00A742D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RDScaleSelectorViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rainday.RDScaleSelectorViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RDScaleSelectorView.app/RDScaleSelectorView";
+			};
+			name = Release;
+		};
+		6E08AAF621363BEC00A742D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RDScaleSelectorViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rainday.RDScaleSelectorViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RDScaleSelectorView;
+			};
+			name = Debug;
+		};
+		6E08AAF721363BEC00A742D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RDScaleSelectorViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rainday.RDScaleSelectorViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RDScaleSelectorView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E08AABE21363BEB00A742D0 /* Build configuration list for PBXProject "RDScaleSelectorView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E08AAED21363BEC00A742D0 /* Debug */,
+				6E08AAEE21363BEC00A742D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E08AAEF21363BEC00A742D0 /* Build configuration list for PBXNativeTarget "RDScaleSelectorView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E08AAF021363BEC00A742D0 /* Debug */,
+				6E08AAF121363BEC00A742D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E08AAF221363BEC00A742D0 /* Build configuration list for PBXNativeTarget "RDScaleSelectorViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E08AAF321363BEC00A742D0 /* Debug */,
+				6E08AAF421363BEC00A742D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E08AAF521363BEC00A742D0 /* Build configuration list for PBXNativeTarget "RDScaleSelectorViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E08AAF621363BEC00A742D0 /* Debug */,
+				6E08AAF721363BEC00A742D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E08AABB21363BEB00A742D0 /* Project object */;
+}
